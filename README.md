@@ -13,8 +13,8 @@ Using: Meteor version 0.5.2 (6635ae1007)
  2. Execute `meteor` inside it;
  3. Open your browser at [http://localhost:3000/](http://localhost:3000/) (or the place you set it).
  4. **Reload the page**;
- 5. Press the "*click me*" button. It will insert a document in database;
- 6. Press the "*click me*" button again. It will change the previously created doc, and then will remove it;
+ 5. Press the *click me* button. It will insert a document in database;
+ 6. Press the *click me* button again. It will change the previously created doc, and then will remove it;
  7. Take a look at server's logs;
 
 Expected Behavior
