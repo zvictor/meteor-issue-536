@@ -71,6 +71,7 @@ Actual Behavior
 Workaround
 ----------
 Uncomment the following code in `server.js`:
+
     this.session.socket.on("close", function() {
       handle.stop();
       Meteor._debug("connection "+self.session.id+" closed");
@@ -78,6 +79,7 @@ Uncomment the following code in `server.js`:
 
 Unfortunatelly, after some time, the following starts to happens:
 *(Try reloading the page many times and wait for connections to time out)*
+
     Exception from setInterval callback: [TypeError: Cannot call method '_removeObserveHandle' of null]
     Exception from setInterval callback: [TypeError: Cannot call method '_removeObserveHandle' of null]
     Exception from setInterval callback: [TypeError: Cannot call method '_removeObserveHandle' of null]
